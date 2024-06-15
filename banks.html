@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html class="rtl" lang="fa">
+
+
+<!-- Mirrored from danabc.ir/banks by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Jun 2024 13:55:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="temp-web/assets/style/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="temp-web/assets/style/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="temp-web/assets/style/css/Chart.min.css">
+    <link rel="stylesheet" href="temp-web/assets/style/css/icons.css" />
+    <link rel="stylesheet" href="temp-web/assets/style/css/style.css" />
+    <link href="../static.neshan.org/sdk/leaflet/1.4.0/leaflet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="temp-web/assets/style/css/all.min.css">
+    <link rel="stylesheet" href="temp-web/assets/style/css/perisan-datepicker.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167773693-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167773693-1');
+</script>
+    <script src="../static.neshan.org/sdk/leaflet/1.4.0/leaflet.js" type="text/javascript"></script>
+    <script src="temp-web/assets/js/basics.js"></script>
+    <script src="temp-web/assets/js/jquery.min.js"></script>
+    <script src="temp-web/assets/js/owl.carousel.min.js"></script>
+    <script src="temp-web/assets/js/sweetalert.min.js"></script>
+    <script src="temp-web/assets/js/custom.js"></script>
+    <script src="temp-web/assets/js/persian-date.min.js"></script>
+    <script src="temp-web/assets/js/persian-datepicker.min.js"></script>
+    <title>کارگزاری دانا | حسابهای بانکی</title>
+</head>
+
+<body>
+<header class="header" dos>
+    <div class="row">
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html"><img src="temp-web/assets/images/logo.png" alt="" /></a>
+                <div class="menuIcon">
+                    <input type="checkbox" id="menuIcon-toggle" class="menuIcon__checkbox" />
+                    <label for="nav-toggle" class="menuIcon__button">
+                        <div class="menuIcon__icon"></div>
+                    </label>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menuItem active">
+                    <div class="description">
+                        <a>درباره دانا</a>
+                        <i class="fas fa-chevron-down" onclick="openSubMenu()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="aboutdana.html">معرفی کارگزاری</a></div>
+                                <div class="dropdown_item"><a href="aboutus.html">شعب و نمایندگی ها</a></div>
+                                <div class="dropdown_item"><a href="banks.html">شماره حساب های بانکی</a></div>
+                                <div class="dropdown_item"><a href="pages/privacy.html">قوانین و مقررات</a></div>
+                                <div class="dropdown_item"><a href="faq.html">سوالات متداول</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="aboutus" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="aboutdana.html">معرفی کارگزاری</a></div>
+                                <div class="dropdown_item"><a href="aboutus.html">شعب و نمایندگی ها</a></div>
+                                <div class="dropdown_item"><a href="banks.html">شماره حساب های بانکی</a></div>
+                                <div class="dropdown_item"><a href="pages/privacy.html">قوانین و مقررات</a></div>
+                                <div class="dropdown_item"><a href="faq.html">سوالات متداول</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuItem">
+                    <div class="description">
+                        <a>معاملات </a>
+                        <i class="fas fa-chevron-down" onclick="openmoamelat()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>چطور باید شروع کنم؟</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="pages/registry.html">مراحل ثبت نام</a></div>
+                                <div class="dropdown_item"><a href="pages/servicesforms.html">فرم های خدمات کارگزاری</a>
+                                </div>
+                                <div class="dropdown_item"><a href="faq.html">سوالات متداول</a></div>
+                            </div>
+                            <div class="items">
+                                <div class="title">
+                                    <h3>سامانه های معاملاتی</h3>
+                                </div>
+                                                                    <div class="dropdown_item"><a href="pages/trader.html">رایان همراه</a></div>
+                                                                    <div class="dropdown_item"><a href="pages/online.html">معاملات آنلاین  (online)</a></div>
+                                                                    <div class="dropdown_item"><a href="pages/offline.html">معاملات آفلاین (offline)</a></div>
+                                                                    <div class="dropdown_item"><a href="pages/inperson.html">معاملات حضوری</a></div>
+                                                                    <div class="dropdown_item"><a href="pages/ime.html">بورس کالا</a></div>
+                                                            </div>
+                                                            <div class="content" style="background-image: linear-gradient(to bottom, #000000 0%, transparent 100%), url('files/proimage/1-1580187333-bonds-article-1024x576.jpg')">
+                                    <div class="title">
+                                        <!--h3>مختصات جدید پتروشیمی‌ها در بورس </h3-->
+                                    </div>
+                                    <div class="description">
+                                        <p>هدف افرادی که در بورس سرمایه گذاری می کنند بدست آوردن سود و کسب منافع بیشتر است. با خرید یک ورقه بهادار سرمایه گذاری در بورس صورت می گیرد و فرد از ارزش های کنونی خود به امید بدست آوردن ارزشی در زمان آینده صرف نظر می کند.</p>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div id="moamelat" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>چطور باید شروع کنم؟</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="pages/registry.html">مراحل ثبت نام</a></div>
+                                <div class="dropdown_item"><a href="pages/servicesforms.html">فرم های خدمات کارگزاری</a>
+                                </div>
+                                <div class="dropdown_item"><a href="faq.html">سوالات متداول</a></div>
+                            </div>
+                            <div class="items">
+                                <div class="title">
+                                    <h3>سامانه های معاملاتی</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="pages/online.html">معاملات آنلاین</a>
+                                </div>
+                                <div class="dropdown_item"><a href="pages/offline.html">معاملات آفلاین</a></div>
+                                <div class="dropdown_item"><a href="pages/trader.html">همراه
+                                        تریدر</a></div>
+                                <div class="dropdown_item"><a href="pages/inperson.html">معاملات حضوری</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuItem">
+                    <div class="description">
+                        <a href="news.html">بازار</a>
+                        <i class="fas fa-chevron-down" onclick="openbazar()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>اخبار</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="prices.html">تابلو چرخشی بورس</a></div>
+                                <div class="dropdown_item"><a href="#">نقشه بازار</a>
+                                </div>
+                                <div class="dropdown_item"><a href="pages/analysis.html">تحلیل ها</a></div>
+                                <div class="dropdown_item"><a href="news.html">اخبار</a></div>
+                            </div>
+                                                            <div class="content" style="background-image: linear-gradient(to bottom, #000000 0%, transparent 100%), url('files/proimage/1-1580187333-bonds-article-1024x576.jpg')">
+                                    <div class="title">
+                                        <h3>مختصات جدید پتروشیمی‌ها در بورس </h3>
+                                    </div>
+                                    <div class="description">
+                                        <p>&quot; روزنامه دنیای اقتصاد &quot; بحث آزادسازی نرخ فروش اگر با فشار تحریمی همراه شود می&zwnj;تواند هم برای فروش داخلی شرکت&zwnj;ها و هم برای فروش صادراتی آنها محدودیت&zwnj;هایی ایجاد کند. در این گزارش محدودیت&zwnj;های شرکت&zwnj;های صادراتی و شرکت&zwnj;ها</p>
+                                    </div>
+                                    <p class="readmore">
+                                        <a href="news/5a55b8.html">
+                                            بیشتر بخوانید
+                                        </a>
+                                    </p>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div id="bazar" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                </div>
+                                <div class="dropdown_item"><a href="prices.html">تابلو چرخشی بورس</a></div>
+                                <div class="dropdown_item"><a href="#">نقشه بازار</a>
+                                </div>
+                                <div class="dropdown_item"><a href="pages/analysis.html">تحلیل ها</a></div>
+                                <div class="dropdown_item"><a href="news.html">اخبار</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuItem">
+                    <div class="description">
+                        <a href="articles.html">آموزش</a>
+                        <i class="fas fa-chevron-down" onclick="opentutorials()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>دسته آموزش ها</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="articles/indexa8ee.html?category=6">بورس و اوراق بهادار</a></div>
+                                <div class="dropdown_item"><a href="articles/index7a81.html?category=1">آتی سبد سهام</a>
+                                </div>
+                                <div class="dropdown_item"><a href="articles/indexdb58.html?category=3">اختیار معامله</a></div>
+                                <div class="dropdown_item"><a href="articles/index9297.html?category=2">سامانه های معاملاتی</a></div>
+                            </div>
+                                                            <div class="content" style="background-image: linear-gradient(to bottom, #000000 0%, transparent 100%), url('files/articles/1-1710062385-Coin.jpg')">
+                                    <div class="title">
+                                        <h3>حراج سکه</h3>
+                                    </div>
+                                    <div class="description">
+                                        <p>سازوکار شرکت در حراج سکه 
+</p>
+                                    </div>
+                                    <p class="readmore">
+                                        <a href="articles/9ed655.html">
+                                            بیشتر بخوانید
+                                        </a>
+                                    </p>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div id="tutorials" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                </div>
+                                <div class="dropdown_item"><a href="articles/indexa8ee.html?category=6">بورس و اوراق بهادار</a></div>
+                                <div class="dropdown_item"><a href="articles/index7a81.html?category=1">آتی سبد سهام</a>
+                                </div>
+                                <div class="dropdown_item"><a href="articles/indexdb58.html?category=3">اختیار معامله</a></div>
+                                <div class="dropdown_item"><a href="articles/index9297.html?category=2">سامانه های معاملاتی</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div onmouseover="displayTopMap()" class="menuItem">
+                    <div class="description">
+                        <p href="aboutus.html">ارتباط با دانا</p>
+                        <i class="fas fa-chevron-down" onclick="opencontacts()"></i>
+                    </div>
+                    <div class="dropdown-container contacts">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="aboutus.html">تماس با ما</a></div>
+                                <div class="dropdown_item"><a href="joinus.html">همکاری با ما</a></div>
+                                <div class="dropdown_item"><a href="contact.html">پیشنهادات و انتقادات</a></div>
+                            </div>
+                            <div id="mainMap"></div>
+                        </div>
+                    </div>
+                    <div id="contacts" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="aboutus.html">تماس با ما</a></div>
+                                <div class="dropdown_item"><a href="joinus.html">همکاری با ما</a></div>
+                                <div class="dropdown_item"><a href="contact.html">پیشنهادات و انتقادات</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="window.location = 'https://dana.exirbroker.com/login?ref=ot1#'" class="btn green">
+              <p>سامانه معاملات انلاين</p>
+            </div>
+            <div onclick="window.location = 'http://dana.ephoenix.ir/'" class="btn green">
+                <p>سامانه معاملات اپشن</p>
+            </div>
+    </div>
+    </nav>
+    </div>
+</header>
+
+<div class="notification" style="display:none;">
+    <p></p>
+</div>
+
+
+<section class="banks">
+    <div class="row">
+        <div class="content">
+            <div class="titles">
+                <div class="title">
+                    <span class="icon-library"></span>
+                    <h2>حساب های بانکی</h2>
+                </div>
+            </div>
+            <div class="items">
+                                    <div class="item">
+                        <img src="files/banks/1-1571116085-Melli-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک ملی</h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه بورس کد ۶۹۵</p>
+                                <p>0104778702003</p>
+                                <p>IR860170000000104778702003</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1569312823-saman.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک سامان</h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه سی تیر کد ۸۴۹</p>
+                                <p>۸۴۹-۴۰-۱۲۲۴۶۴۷-۱</p>
+                                <p>IR890560084904001224647001</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1569312790-mellat.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک ملت</h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه قلهک کد ۶۵۰۵۲/۲</p>
+                                <p>۲۱۴۲۷۸۶۵۷۶</p>
+                                <p>IR740120000000002142786576</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1571116308-Pasargad-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک پاسارگاد</h2>
+                            </div>
+                            <div class="description">
+                                <p>قلهک کد 1256/2</p>
+                                <p>210-110-10283084-1</p>
+                                <p>IR400570021011010283084001</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1571116384-Parsian-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک پارسیان </h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه آفریقای شمالی کد 5410038</p>
+                                <p>20101002181606</p>
+                                <p>IR760540100320101002181606</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1571116575-Karafarin-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک کارآفرین</h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه ناهید کد 00453</p>
+                                <p>0100524140607</p>
+                                <p>IR180530000000100524140607</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1571116332-Saderat-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک صادرات </h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه ناهید کد 107</p>
+                                <p>0107196186003</p>
+                                <p>IR870190000000107196186003</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1571116436-Tejarat-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک تجارت </h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه ایرانشهر کد 52</p>
+                                <p>0101965433769</p>
+                                <p> IR220180000000101965433769</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1581853353-Ba22nk-Ayandeh-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک آینده</h2>
+                            </div>
+                            <div class="description">
+                                <p>پل رومی</p>
+                                <p>0100398475006</p>
+                                <p>IR400620000000100398475006 </p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1618814528-1-1571116085-Sepah-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>سپه</h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه پارک ملت کد2021</p>
+                                <p>3100002806051</p>
+                                <p>IR620150000003100002806051</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1618902607-1-1571116085-shahr-logo-LimooGraphic.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>شهر</h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه شریعتی-میرداماد کد 504</p>
+                                <p>0100843293720</p>
+                                <p>IR790610000000100843293720</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1690793983-MehrIran.jpg" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک قرض الحسنه مهر ایران</h2>
+                            </div>
+                            <div class="description">
+                                <p>ولیعصر 3003</p>
+                                <p>300311146017801</p>
+                                <p>IR310600300301114601780001</p>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item">
+                        <img src="files/banks/1-1699695097-Ime_logo.png" alt="">
+                        <div class="content">
+                            <div class="title">
+                                <h2>بانک ملت (بورس کالا)</h2>
+                            </div>
+                            <div class="description">
+                                <p>شعبه قلهک</p>
+                                <p>5111002908 جاری</p>
+                                <p>IR72-0120-0000-0000-5111-0029-08</p>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    var myMap = new L.Map('map', {
+        key: 'web.g6fMctx2RqeSFamhzm1c3mufmaUemFeCLuoYYW0P',
+        maptype: 'dreamy',
+        poi: true,
+        traffic: false,
+        center: [35.793801, 51.411166],
+        zoom: 14
+    });
+
+    var marker1 = L.marker([35.793801, 51.411166], {
+        title: "tehran_marker_1"
+    }).addTo(myMap).on('click', clickZoom);
+    var marker2 = L.marker([36.273257, 59.599534], {
+        title: "mashhad_marker_1"
+    }).addTo(myMap).on('click', clickZoom);
+
+    function clickZoom(e) {
+        map.setView(e.target.getLatLng(), 15);
+    }
+
+    var markers = [];
+    markers.push(marker1);
+    markers.push(marker2);
+</script>
+
+<footer class="footer">
+    <div class="row">
+        <div class="container">
+            <div class="branches">
+                <div class="title">
+                    <h2>شعب دانا</h2>
+                </div>
+                <div class="item">
+                    <div class="address">
+                        <span class="icon-location"></span>
+                        <p>تهران، خیابان نلسون ماندلا(جردن)، خیابان کاج آبادی، پلاک 27	 	</p>
+                    </div>
+                    <div class="phones">
+                        <span class="icon-telephone"></span>
+                        <div class="number">
+                            <p>تلفن: 02179408 ، 02178301000</p>
+                            <p>فکس: 02126291522</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="address">
+                        <span class="icon-location"></span>
+                        <p>مشهد، بلوار جانباز- مجتمع پاژ- بلوک E- طبقه 13- واحد 9		 			</p>
+                    </div>
+                    <div class="phones">
+                        <span class="icon-telephone"></span>
+                        <div class="number">
+                            <p>تلفن: 05137057603</p>
+                            <p>فکس: 05137672291</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <div class="title">
+                    <h2>دسترسی سریع</h2>
+                </div>
+                <div class="item">
+                                            <a href="https://www.seo.ir/">سازمان بورس</a>
+                                            <a href="https://tse.ir/">شرکت بورس </a>
+                                            <a href="https://codal.ir/">کدال</a>
+                                            <a href="https://www.ifb.ir/">فرابورس</a>
+                                    </div>
+
+                <div class="item">
+                                            <a href="http://www.tsetmc.com/Loader.aspx?ParTree=15">شركت مديريت فناوري بورس تهران</a>
+                                            <a href="http://www.irvex.ir/">تالار مجازی بورس ایران</a>
+                                            <a href="https://www.seba.ir/">کانون کارگزاران بورس و اوراق بهادار</a>
+                                            <a href="https://www.sena.ir/">پایگاه اطلاع رسانی بازار سرمایه</a>
+                                    </div>
+            </div>
+            <div class="socialNetworks">
+                <div class="namad">
+                    <div class="title">
+                        <h2>با ما همراه باشید </h2>
+                    </div>
+                    <div class="links">
+                        <a href="#"><span class="icon-facebook"></span></span></a>
+                        <a href="#"><span class="icon-youtube"></span></a>
+                        <a href="#"><span class="icon-instagram"></span></a>
+                        <a href="#"><span class="icon-linkedin"></span></a>
+                        <a href="https://www.twitter.com/"><span class="icon-twitter"></span></a>
+                        <a href="#"><span class="icon-telegram"></span></a></br>
+			<a target="_blank" href="https://trustseal.enamad.ir/?id=221327&amp;Code=dI2IpYJ7Yj1lNi3pEA9P"><img referrerpolicy="origin" src="../trustseal.enamad.ir/logo16fb.png?id=221327&amp;Code=dI2IpYJ7Yj1lNi3pEA9P" alt="" style="cursor:pointer" id="dI2IpYJ7Yj1lNi3pEA9P"></a>
+			</div>
+		</div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">&copy; 2021 <a href="http://neotistudio.com/">Neotis Studio</a> , All rights reserved</div>
+</footer>
+<script>
+    // getRequest('#aboutUsContent', 'aboutUsContent');
+    // setInterval(function () {
+    //   getRequest('#aboutUsContent', 'aboutUsContent');
+    // }, 5000);
+</script>
+<script>
+        var firstMap = true;
+
+    function displayTopMap() {
+        if (firstMap) {
+            var myMap = new L.Map('mainMap', {
+                key: 'web.g6fMctx2RqeSFamhzm1c3mufmaUemFeCLuoYYW0P',
+                maptype: 'dreamy',
+                poi: true,
+                traffic: false,
+                center: [35.778918,  51.418133],
+                zoom: 14
+            });
+
+            var marker1 = L.marker([35.778918,  51.418133], { }).addTo(myMap)
+            firstMap = false;
+        }
+    }
+</script>
+<script>
+    $(document).ready(function() {
+
+        ConvertNumberToPersion();
+    });
+
+    function ConvertNumberToPersion() {
+        persian = {
+            0: '۰',
+            1: '۱',
+            2: '۲',
+            3: '۳',
+            4: '۴',
+            5: '۵',
+            6: '۶',
+            7: '۷',
+            8: '۸',
+            9: '۹'
+        };
+
+        function traverse(el) {
+            if (el.nodeType == 3) {
+                var list = el.data.match(/[0-9]/g);
+                if (list != null && list.length != 0) {
+                    for (var i = 0; i < list.length; i++)
+                        el.data = el.data.replace(list[i], persian[list[i]]);
+                }
+            }
+            for (var i = 0; i < el.childNodes.length; i++) {
+                traverse(el.childNodes[i]);
+            }
+        }
+        traverse(document.body);
+    }
+</script>
+</body>
+
+
+<!-- Mirrored from danabc.ir/banks by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Jun 2024 13:55:31 GMT -->
+</html>

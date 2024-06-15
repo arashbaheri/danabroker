@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html class="rtl" lang="fa">
+
+
+<!-- Mirrored from danabc.ir/pages/ime by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Jun 2024 13:55:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../temp-web/assets/style/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../temp-web/assets/style/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../temp-web/assets/style/css/Chart.min.css">
+    <link rel="stylesheet" href="../temp-web/assets/style/css/icons.css" />
+    <link rel="stylesheet" href="../temp-web/assets/style/css/style.css" />
+    <link href="../../static.neshan.org/sdk/leaflet/1.4.0/leaflet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../temp-web/assets/style/css/all.min.css">
+    <link rel="stylesheet" href="../temp-web/assets/style/css/perisan-datepicker.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167773693-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167773693-1');
+</script>
+    <script src="../../static.neshan.org/sdk/leaflet/1.4.0/leaflet.js" type="text/javascript"></script>
+    <script src="../temp-web/assets/js/basics.js"></script>
+    <script src="../temp-web/assets/js/jquery.min.js"></script>
+    <script src="../temp-web/assets/js/owl.carousel.min.js"></script>
+    <script src="../temp-web/assets/js/sweetalert.min.js"></script>
+    <script src="../temp-web/assets/js/custom.js"></script>
+    <script src="../temp-web/assets/js/persian-date.min.js"></script>
+    <script src="../temp-web/assets/js/persian-datepicker.min.js"></script>
+    <title>کارگزاری دانا | بورس کالا</title>
+</head>
+
+<body>
+<header class="header" dos>
+    <div class="row">
+        <nav class="nav">
+            <div class="logo">
+                <a href="../index.html"><img src="../temp-web/assets/images/logo.png" alt="" /></a>
+                <div class="menuIcon">
+                    <input type="checkbox" id="menuIcon-toggle" class="menuIcon__checkbox" />
+                    <label for="nav-toggle" class="menuIcon__button">
+                        <div class="menuIcon__icon"></div>
+                    </label>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menuItem active">
+                    <div class="description">
+                        <a>درباره دانا</a>
+                        <i class="fas fa-chevron-down" onclick="openSubMenu()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="../aboutdana.html">معرفی کارگزاری</a></div>
+                                <div class="dropdown_item"><a href="../aboutus.html">شعب و نمایندگی ها</a></div>
+                                <div class="dropdown_item"><a href="../banks.html">شماره حساب های بانکی</a></div>
+                                <div class="dropdown_item"><a href="privacy.html">قوانین و مقررات</a></div>
+                                <div class="dropdown_item"><a href="../faq.html">سوالات متداول</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="aboutus" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="../aboutdana.html">معرفی کارگزاری</a></div>
+                                <div class="dropdown_item"><a href="../aboutus.html">شعب و نمایندگی ها</a></div>
+                                <div class="dropdown_item"><a href="../banks.html">شماره حساب های بانکی</a></div>
+                                <div class="dropdown_item"><a href="privacy.html">قوانین و مقررات</a></div>
+                                <div class="dropdown_item"><a href="../faq.html">سوالات متداول</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuItem">
+                    <div class="description">
+                        <a>معاملات </a>
+                        <i class="fas fa-chevron-down" onclick="openmoamelat()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>چطور باید شروع کنم؟</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="registry.html">مراحل ثبت نام</a></div>
+                                <div class="dropdown_item"><a href="servicesforms.html">فرم های خدمات کارگزاری</a>
+                                </div>
+                                <div class="dropdown_item"><a href="../faq.html">سوالات متداول</a></div>
+                            </div>
+                            <div class="items">
+                                <div class="title">
+                                    <h3>سامانه های معاملاتی</h3>
+                                </div>
+                                                                    <div class="dropdown_item"><a href="trader.html">رایان همراه</a></div>
+                                                                    <div class="dropdown_item"><a href="online.html">معاملات آنلاین  (online)</a></div>
+                                                                    <div class="dropdown_item"><a href="offline.html">معاملات آفلاین (offline)</a></div>
+                                                                    <div class="dropdown_item"><a href="inperson.html">معاملات حضوری</a></div>
+                                                                    <div class="dropdown_item"><a href="ime.html">بورس کالا</a></div>
+                                                            </div>
+                                                            <div class="content" style="background-image: linear-gradient(to bottom, #000000 0%, transparent 100%), url('../files/proimage/1-1580187333-bonds-article-1024x576.jpg')">
+                                    <div class="title">
+                                        <!--h3>مختصات جدید پتروشیمی‌ها در بورس </h3-->
+                                    </div>
+                                    <div class="description">
+                                        <p>هدف افرادی که در بورس سرمایه گذاری می کنند بدست آوردن سود و کسب منافع بیشتر است. با خرید یک ورقه بهادار سرمایه گذاری در بورس صورت می گیرد و فرد از ارزش های کنونی خود به امید بدست آوردن ارزشی در زمان آینده صرف نظر می کند.</p>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div id="moamelat" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>چطور باید شروع کنم؟</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="registry.html">مراحل ثبت نام</a></div>
+                                <div class="dropdown_item"><a href="servicesforms.html">فرم های خدمات کارگزاری</a>
+                                </div>
+                                <div class="dropdown_item"><a href="../faq.html">سوالات متداول</a></div>
+                            </div>
+                            <div class="items">
+                                <div class="title">
+                                    <h3>سامانه های معاملاتی</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="online.html">معاملات آنلاین</a>
+                                </div>
+                                <div class="dropdown_item"><a href="offline.html">معاملات آفلاین</a></div>
+                                <div class="dropdown_item"><a href="trader.html">همراه
+                                        تریدر</a></div>
+                                <div class="dropdown_item"><a href="inperson.html">معاملات حضوری</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuItem">
+                    <div class="description">
+                        <a href="../news.html">بازار</a>
+                        <i class="fas fa-chevron-down" onclick="openbazar()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>اخبار</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="../prices.html">تابلو چرخشی بورس</a></div>
+                                <div class="dropdown_item"><a href="#">نقشه بازار</a>
+                                </div>
+                                <div class="dropdown_item"><a href="analysis.html">تحلیل ها</a></div>
+                                <div class="dropdown_item"><a href="../news.html">اخبار</a></div>
+                            </div>
+                                                            <div class="content" style="background-image: linear-gradient(to bottom, #000000 0%, transparent 100%), url('../files/proimage/1-1580187333-bonds-article-1024x576.jpg')">
+                                    <div class="title">
+                                        <h3>مختصات جدید پتروشیمی‌ها در بورس </h3>
+                                    </div>
+                                    <div class="description">
+                                        <p>&quot; روزنامه دنیای اقتصاد &quot; بحث آزادسازی نرخ فروش اگر با فشار تحریمی همراه شود می&zwnj;تواند هم برای فروش داخلی شرکت&zwnj;ها و هم برای فروش صادراتی آنها محدودیت&zwnj;هایی ایجاد کند. در این گزارش محدودیت&zwnj;های شرکت&zwnj;های صادراتی و شرکت&zwnj;ها</p>
+                                    </div>
+                                    <p class="readmore">
+                                        <a href="../news/5a55b8.html">
+                                            بیشتر بخوانید
+                                        </a>
+                                    </p>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div id="bazar" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                </div>
+                                <div class="dropdown_item"><a href="../prices.html">تابلو چرخشی بورس</a></div>
+                                <div class="dropdown_item"><a href="#">نقشه بازار</a>
+                                </div>
+                                <div class="dropdown_item"><a href="analysis.html">تحلیل ها</a></div>
+                                <div class="dropdown_item"><a href="../news.html">اخبار</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuItem">
+                    <div class="description">
+                        <a href="../articles.html">آموزش</a>
+                        <i class="fas fa-chevron-down" onclick="opentutorials()"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                    <h3>دسته آموزش ها</h3>
+                                </div>
+                                <div class="dropdown_item"><a href="../articles/indexa8ee.html?category=6">بورس و اوراق بهادار</a></div>
+                                <div class="dropdown_item"><a href="../articles/index7a81.html?category=1">آتی سبد سهام</a>
+                                </div>
+                                <div class="dropdown_item"><a href="../articles/indexdb58.html?category=3">اختیار معامله</a></div>
+                                <div class="dropdown_item"><a href="../articles/index9297.html?category=2">سامانه های معاملاتی</a></div>
+                            </div>
+                                                            <div class="content" style="background-image: linear-gradient(to bottom, #000000 0%, transparent 100%), url('../files/articles/1-1710062385-Coin.jpg')">
+                                    <div class="title">
+                                        <h3>حراج سکه</h3>
+                                    </div>
+                                    <div class="description">
+                                        <p>سازوکار شرکت در حراج سکه 
+</p>
+                                    </div>
+                                    <p class="readmore">
+                                        <a href="../articles/9ed655.html">
+                                            بیشتر بخوانید
+                                        </a>
+                                    </p>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div id="tutorials" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="title">
+                                </div>
+                                <div class="dropdown_item"><a href="../articles/indexa8ee.html?category=6">بورس و اوراق بهادار</a></div>
+                                <div class="dropdown_item"><a href="../articles/index7a81.html?category=1">آتی سبد سهام</a>
+                                </div>
+                                <div class="dropdown_item"><a href="../articles/indexdb58.html?category=3">اختیار معامله</a></div>
+                                <div class="dropdown_item"><a href="../articles/index9297.html?category=2">سامانه های معاملاتی</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div onmouseover="displayTopMap()" class="menuItem">
+                    <div class="description">
+                        <p href="../aboutus.html">ارتباط با دانا</p>
+                        <i class="fas fa-chevron-down" onclick="opencontacts()"></i>
+                    </div>
+                    <div class="dropdown-container contacts">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="../aboutus.html">تماس با ما</a></div>
+                                <div class="dropdown_item"><a href="../joinus.html">همکاری با ما</a></div>
+                                <div class="dropdown_item"><a href="../contact.html">پیشنهادات و انتقادات</a></div>
+                            </div>
+                            <div id="mainMap"></div>
+                        </div>
+                    </div>
+                    <div id="contacts" class="responsive-dropdown-container">
+                        <div class="dropdown">
+                            <div class="items">
+                                <div class="dropdown_item"><a href="../aboutus.html">تماس با ما</a></div>
+                                <div class="dropdown_item"><a href="../joinus.html">همکاری با ما</a></div>
+                                <div class="dropdown_item"><a href="../contact.html">پیشنهادات و انتقادات</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div onclick="window.location = 'https://dana.exirbroker.com/login?ref=ot1#'" class="btn green">
+              <p>سامانه معاملات انلاين</p>
+            </div>
+            <div onclick="window.location = 'http://dana.ephoenix.ir/'" class="btn green">
+                <p>سامانه معاملات اپشن</p>
+            </div>
+    </div>
+    </nav>
+    </div>
+</header>
+
+<div class="notification" style="display:none;">
+    <p></p>
+</div>
+
+
+<div class="services-context">
+    <div class="row">
+        <div class="breadcrum">
+            <p>بورس کالا</p>
+        </div>
+        <div class="services-description-container">
+            <div class="content">
+                <p>
+                    <p dir="RTL" style="text-align:right"><strong><span style="font-size:18.0pt"><span style="color:black">ثبت نام و دریافت کد بورس کالا</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">اولین مرحله جهت خرید خودرو از بورس کالا ثبت نام و تکمیل مراحل آن در سامانه سجام است، در صورتیکه قبلا اقدام نکرده اید، مراحل ثبت نام را از طریق </span></span><a href="https://profilesejam.csdiran.ir/" target="_blank"><span style="color:#2980b9"><span style="font-size:13.0pt">این لینک</span></span></a> <span style="font-size:13.0pt"><span style="color:black">تکمیل و در آخر جهت احراز هویت از </span></span><a href="https://ehraz.danabc.ir/" target="_blank"><span style="color:#2980b9"><span style="font-size:13.0pt">طریق کارگزاری</span></span></a> <span style="font-size:13.0pt"><span style="color:black">اقدام نمایید</span></span><span style="font-size:13.0pt"><span style="color:#959595">. </span></span></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">چنانچه&nbsp; قبلاً ثبت نام سجام را تکمیل کرده اید شما می توانید ظرف مدت یک روز کاری از طریق </span></span><a href="https://dana.ebgo.ir/" target="_blank"><span style="color:#2980b9"><span style="font-size:13.0pt">سامانه آنلاین بورس کالای کارگزاری توسعه اندیشه دانا</span></span></a><span style="font-size:13.0pt"><span style="color:black">، کد بورس کالای خود را دریافت کنید.</span></span></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">سپس جهت افتتاح حساب وکالتی با همراه داشتن معرفی&zwnj;نامه کارگزاری به بانک مورد نظر مراجعه و پیش&zwnj;پرداخت مورد نیاز جهت خرید خودرو را به حساب وکالتی خود واریز&zwnj; نمایید.</span></span></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">توجه داشته باشید زمان ثبت سفارش خودروها، حداکثر تا ساعت </span></span><span style="font-size:13.0pt"><span style="color:black">۱۶</span></span><span style="font-size:13.0pt"><span style="color:black"> روز کاری قبل از عرضه می باشد. اطلاعات دقیق عرضه خودرو در ابلاغیه&zwnj; بورس کالا مشخص می گردد</span></span><span style="font-size:13.0pt"><span style="color:#959595">.</span></span></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<strong><span style="font-size:18.0pt"><span style="color:black">ثبت سفارش خرید خودرو</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">برای ثبت سفارش وارد</span><span style="color:#2980b9"> </span></span><a href="https://dana.ebgo.ir/" target="_blank"><span style="color:#2980b9"><span style="font-size:13.0pt">سامانه بورس کالای کارگزاری توسعه اندیشه دانا</span></span></a> <span style="font-size:13.0pt"><span style="color:black">شده و اقدام به ثبت سفارش نمایید. همچنین در روز عرضه، می&zwnj;توانید از طریق سامانه </span></span><a href="https://tts.ime.co.ir/" target="_blank"><span style="color:#2980b9"><span style="font-size:13.0pt">تابلوی معاملات برخط بازارفیزیکی بورس کالای ایران</span></span></a> <span style="font-size:13.0pt"><span style="color:black">روند معاملات، مقدار تقاضا و قیمت&zwnj;های پیشنهادی برای خودروی مورد نظر را مشاهده نمایید. </span></span></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<strong><span style="font-size:18.0pt"><span style="color:black">تسویه و تحویل خودرو</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">آخرین مرحله خرید خودرو از بورس کالا، تسویه و تحویل خودرو می باشد. مهلت تسویه کامل خودروی خریداری شده در اطلاعیه عرضه خودرو قابل مشاهده است (معمولاً سه روز کاری پس از تاریخ عرضه) که باید طی این مهلت، مبلغ باقیمانده را از طریق افزایش موجودی حساب وکالتی تامین کرد. در صورتی که مبلغ باقیمانده ظرف مهلت مقرر تامین نشود، حداکثر تا 3 روز دیگر با پرداخت جریمه ( به ازای هر روز 0025/0 ارزش قرارداد) مهلت دارید مبلغ باقیمانده را تسویه کنید. در صورت عدم پرداخت پس از </span></span><span style="font-size:13.0pt"><span style="color:black">۶</span></span><span style="font-size:13.0pt"><span style="color:black"> روز، قرارداد فسخ می گردد که می&shy;بایست 5%</span></span> <span style="font-size:13.0pt"><span style="color:black">ارزش معامله را به عنوان خسارت انفساخ به اضافه کارمزد طرفین قرارداد، واریز نمایید.</span></span></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">توجه داشته باشید بعد از واریز وجه باقیمانده باید درخواست تسویه نقدی خود را در </span></span><a href="https://dana.ebgo.ir/" target="_blank"><span style="color:#2980b9"><span style="font-size:13.0pt">سامانه بورس کالای کارگزاری</span></span></a> <span style="font-size:13.0pt"><span style="color:black">ثبت نمایید.</span></span></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">برای تحویل خودرو، با مراجعه به سایت شرکت عرضه&zwnj;کننده از بین لیست نمایندگی&zwnj;های خودرو ساز، نمایندگی منتخب خود را برای تحویل گرفتن خودرو مشخص نمایید.</span></span><br />
+&nbsp;</p>
+
+<p dir="RTL" style="text-align:right">&nbsp;</p>
+
+<p dir="RTL" style="text-align:right">&nbsp;</p>
+
+<p dir="RTL" style="text-align:right">&nbsp;</p>
+
+<p dir="RTL" style="text-align:right"><strong><span style="font-size:18.0pt"><span style="color:black">پذیرش مشتریان بورس کالا</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<strong><span style="font-size:13.5pt"><span style="color:black">مشتریان حقوقی ایرانی:</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">۱.</span></span> <span style="font-size:13.0pt"><span style="color:black">اصل فرم درخواست کد حقوقی ایرانی</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۲.</span></span> <span style="font-size:13.0pt"><span style="color:black">کپی برابر اصل شده کارت ملی و شناسنامه مدیر عامل و تمام اعضاء هیأت مدیره (صفحه توضیحات در صورت لزوم)</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۳.</span></span> <span style="font-size:13.0pt"><span style="color:black">اساسنامه</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۴.</span></span> <span style="font-size:13.0pt"><span style="color:black">روزنامه رسمی تأسیس و آخرین تغییرات اعضاء هیأت مدیره و سایر روزنامه&zwnj;های رسمی مهم (تغییر نام و...)</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۵.</span></span> <span style="font-size:13.0pt"><span style="color:black">صورت&zwnj;های مالی حسابرسی&zwnj;شده&zwnj;ی آخرین دوره (در صورت عدم شمول برای حسابرسی، اظهارنامه مالیاتی)</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۶.</span></span> <span style="font-size:13.0pt"><span style="color:black">پروانه&zwnj;ی بهره&zwnj;برداری و سایر مجوزهای فعالیت معتبر</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۷.</span></span> <span style="font-size:13.0pt"><span style="color:black">سایر موارد در صورت نیاز به تشخیص کمیته</span></span></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<strong><span style="font-size:13.5pt"><span style="color:black">مشتریان حقیقی خارجی:</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">۱.</span></span> <span style="font-size:13.0pt"><span style="color:black">اصل فرم درخواست کد حقیقی خارجی</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۲.</span></span> <span style="font-size:13.0pt"><span style="color:black">کپی برابر اصل شده&zwnj;ی گذرنامه معتبر متقاضی</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۳.</span></span> <span style="font-size:13.0pt"><span style="color:black">مجوز فعالیت در کشور مبدأ به زبان فارسی یا انگلیسی ممهور به مهر تأییدیه&zwnj;ی کنسولگری ایران در آن کشور یا مجوز فعالیت در ایران</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۴.</span></span> <span style="font-size:13.0pt"><span style="color:black">مدارک مثبت مالی به تشخیص بورس</span></span></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<strong><span style="font-size:13.5pt"><span style="color:black">مشتریان حقوقی خارجی:</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">۱.</span></span> <span style="font-size:13.0pt"><span style="color:black">اصل فرم درخواست کد حقوقی خارجی</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۲.</span></span> <span style="font-size:13.0pt"><span style="color:black">کپی برابر اصل شده&zwnj;ی مدارک شناسایی مدیر عامل و اعضای هیأت مدیره (کارت ملی، شناسنامه و گذرنامه&zwnj;ی معتبر)</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۳.</span></span> <span style="font-size:13.0pt"><span style="color:black">مدارک ثبت شرکت در کشور مبدأ به زبان فارسی یا انگلیسی ممهور به مهر تأییدیه&zwnj;ی کنسولگری ایران در آن کشور</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۴.</span></span> <span style="font-size:13.0pt"><span style="color:black">مدارک مثبت مالی (صورت مالی حسابرسی شده یا مدرک مشابه) به تشخیص بورس<br />
+مدارک ثبت شرکت عبارتند از: گواهی تأسیس یا مدرک مشابه، اساسنامه یا مدرک مشابه، مدارک مثبت مشخصات، حدود اختیارات صاحبان امضای مجاز شخص حقوقی، مدارک مربوط به مجوز فعالیت در کشور متبوع که به تأیید کنسول&zwnj;گری ایران رسیده باشد.</span></span></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<strong><span style="font-size:13.5pt"><span style="color:black">توضیحات:</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">۱.</span></span> <span style="font-size:13.0pt"><span style="color:black">فقط فرم درخواست کد باید به صورت فیزیکی امضا گردد، سایر مدارک فقط به صورت سیستمی (سامانه&zwnj;های بورس یا استعلام سایر مراجع)</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۲.</span></span> <span style="font-size:13.0pt"><span style="color:black">ثبت&zwnj;نام در سامانه جامع انبارهای وزارت صمت برای شرکت&zwnj;هایی که دارای انبار جهت مواد اولیه&zwnj;ی خریداری شده یا محصول نهایی خود هستند، الزامی است (ثبت&zwnj;نام در سامانه انبار گمرک کفایت نمی&zwnj;کند).</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۳.</span></span> <span style="font-size:13.0pt"><span style="color:black">ثبت&zwnj;نام در سامانه سجام و احراز هویت</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۴.</span></span> <span style="font-size:13.0pt"><span style="color:black">ثبت&zwnj;نام در سامانه بهین&zwnj;یاب (مخصوص مشتریانی که کالا مربوط به سهمیه بهین یاب داشته باشند).</span></span></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<strong><span style="font-size:13.5pt"><span style="color:black">نحوه انجام معاملات</span></span></strong></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:13.0pt"><span style="color:black">۱.</span></span> <span style="font-size:13.0pt"><span style="color:black">تکمیل فرم سفارش خرید کالا بر اساس درخواست مشتری، مربوط به عرضه&zwnj;ی اعلام شده در بورس کالا</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۲.</span></span> <span style="font-size:13.0pt"><span style="color:black">بررسی نمودن امکان خرید کالای درخواست شده</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۳.</span></span> <span style="font-size:13.0pt"><span style="color:black">واریز پیش&zwnj;پرداخت مطابق با نوع بازار (</span></span><span style="font-size:13.0pt"><span style="color:black">۱۰</span></span><span style="font-size:13.0pt"><span style="color:black"> درصد در بازار فیزیکی، </span></span><span style="font-size:13.0pt"><span style="color:black">۵</span></span><span style="font-size:13.0pt"><span style="color:black"> درصد در بازار صادراتی)</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۴.</span></span> <span style="font-size:13.0pt"><span style="color:black">ثبت درخواست خرید محصول توسط کارگزاری در سامانه بورس</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۵.</span></span> <span style="font-size:13.0pt"><span style="color:black">در صورت انجام معامله، تهیه اطلاعیه خرید کالا (صورت&zwnj;حساب) توسط کارگزار و ارسال برای مشتری جهت تسویه مابقی وجه معامله</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۶.</span></span> <span style="font-size:13.0pt"><span style="color:black">پس از تسویه توسط مشتری، کارگزار خریدار، مدارک مربوط به تعیین ثبت سفارش و مدارک تسویه کالا را تکمیل و به کارگزار فروشنده ارسال می&zwnj;نماید.</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۷.</span></span> <span style="font-size:13.0pt"><span style="color:black">پیگیری دریافت شمار&zwnj;ه&zwnj;ی حواله و اعلام به مشتری</span></span></p>
+
+<p dir="RTL" style="text-align:right"><br />
+<span style="font-size:13.0pt"><span style="color:black">تماس با واحد کالا</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۰۲۱۷۸۳۰۱۲۲۰</span></span><br />
+<span style="font-size:13.0pt"><span style="color:black">۰۲۱۷۸۳۰۱۲۲۱</span></span></p>
+                </p>
+                                    <div class="links">
+                                                                                    <div class="link">
+                                    <a href="0.html" class="btn green"></a>
+                                </div>
+                                                                                                </div>
+                            </div>
+        </div>
+            </div>
+</div>
+
+
+<footer class="footer">
+    <div class="row">
+        <div class="container">
+            <div class="branches">
+                <div class="title">
+                    <h2>شعب دانا</h2>
+                </div>
+                <div class="item">
+                    <div class="address">
+                        <span class="icon-location"></span>
+                        <p>تهران، خیابان نلسون ماندلا(جردن)، خیابان کاج آبادی، پلاک 27	 	</p>
+                    </div>
+                    <div class="phones">
+                        <span class="icon-telephone"></span>
+                        <div class="number">
+                            <p>تلفن: 02179408 ، 02178301000</p>
+                            <p>فکس: 02126291522</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="address">
+                        <span class="icon-location"></span>
+                        <p>مشهد، بلوار جانباز- مجتمع پاژ- بلوک E- طبقه 13- واحد 9		 			</p>
+                    </div>
+                    <div class="phones">
+                        <span class="icon-telephone"></span>
+                        <div class="number">
+                            <p>تلفن: 05137057603</p>
+                            <p>فکس: 05137672291</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="items">
+                <div class="title">
+                    <h2>دسترسی سریع</h2>
+                </div>
+                <div class="item">
+                                            <a href="https://www.seo.ir/">سازمان بورس</a>
+                                            <a href="https://tse.ir/">شرکت بورس </a>
+                                            <a href="https://codal.ir/">کدال</a>
+                                            <a href="https://www.ifb.ir/">فرابورس</a>
+                                    </div>
+
+                <div class="item">
+                                            <a href="http://www.tsetmc.com/Loader.aspx?ParTree=15">شركت مديريت فناوري بورس تهران</a>
+                                            <a href="http://www.irvex.ir/">تالار مجازی بورس ایران</a>
+                                            <a href="https://www.seba.ir/">کانون کارگزاران بورس و اوراق بهادار</a>
+                                            <a href="https://www.sena.ir/">پایگاه اطلاع رسانی بازار سرمایه</a>
+                                    </div>
+            </div>
+            <div class="socialNetworks">
+                <div class="namad">
+                    <div class="title">
+                        <h2>با ما همراه باشید </h2>
+                    </div>
+                    <div class="links">
+                        <a href="#"><span class="icon-facebook"></span></span></a>
+                        <a href="#"><span class="icon-youtube"></span></a>
+                        <a href="#"><span class="icon-instagram"></span></a>
+                        <a href="#"><span class="icon-linkedin"></span></a>
+                        <a href="https://www.twitter.com/"><span class="icon-twitter"></span></a>
+                        <a href="#"><span class="icon-telegram"></span></a></br>
+			<a target="_blank" href="https://trustseal.enamad.ir/?id=221327&amp;Code=dI2IpYJ7Yj1lNi3pEA9P"><img referrerpolicy="origin" src="../../trustseal.enamad.ir/logo16fb.png?id=221327&amp;Code=dI2IpYJ7Yj1lNi3pEA9P" alt="" style="cursor:pointer" id="dI2IpYJ7Yj1lNi3pEA9P"></a>
+			</div>
+		</div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">&copy; 2021 <a href="http://neotistudio.com/">Neotis Studio</a> , All rights reserved</div>
+</footer>
+<script>
+    // getRequest('#aboutUsContent', 'aboutUsContent');
+    // setInterval(function () {
+    //   getRequest('#aboutUsContent', 'aboutUsContent');
+    // }, 5000);
+</script>
+<script>
+        var firstMap = true;
+
+    function displayTopMap() {
+        if (firstMap) {
+            var myMap = new L.Map('mainMap', {
+                key: 'web.g6fMctx2RqeSFamhzm1c3mufmaUemFeCLuoYYW0P',
+                maptype: 'dreamy',
+                poi: true,
+                traffic: false,
+                center: [35.778918,  51.418133],
+                zoom: 14
+            });
+
+            var marker1 = L.marker([35.778918,  51.418133], { }).addTo(myMap)
+            firstMap = false;
+        }
+    }
+</script>
+<script>
+    $(document).ready(function() {
+
+        ConvertNumberToPersion();
+    });
+
+    function ConvertNumberToPersion() {
+        persian = {
+            0: '۰',
+            1: '۱',
+            2: '۲',
+            3: '۳',
+            4: '۴',
+            5: '۵',
+            6: '۶',
+            7: '۷',
+            8: '۸',
+            9: '۹'
+        };
+
+        function traverse(el) {
+            if (el.nodeType == 3) {
+                var list = el.data.match(/[0-9]/g);
+                if (list != null && list.length != 0) {
+                    for (var i = 0; i < list.length; i++)
+                        el.data = el.data.replace(list[i], persian[list[i]]);
+                }
+            }
+            for (var i = 0; i < el.childNodes.length; i++) {
+                traverse(el.childNodes[i]);
+            }
+        }
+        traverse(document.body);
+    }
+</script>
+</body>
+
+
+<!-- Mirrored from danabc.ir/pages/ime by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 15 Jun 2024 13:55:45 GMT -->
+</html>
